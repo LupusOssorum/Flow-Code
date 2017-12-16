@@ -9,6 +9,7 @@ class BlockBase {
 				{	"classList"	:	[	"block"	]},
 				"Hi"
 			)
+		this.drag = new Drag(this.el);
 	}
 	
 	render() {
