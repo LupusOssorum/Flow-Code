@@ -2,11 +2,12 @@
 .editorPane {
 	width	:	100%	;
 	height	:	100%	;
-	overflow	:	scroll	;
+	position	:	relative	;
+	overflow	:	auto	;
 }
 
 .editorPane > * {
-	position	:	fixed	;
+	position	:	absolute	;
 }
 
 .block {
